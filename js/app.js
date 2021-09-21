@@ -29,15 +29,6 @@
 
 		$(".modal").hide();
 
-		$(".btn-plan-basico-premier").click(function()
-		{
-			$("#plan-basico-premier").dialog({
-				modal: true
-			});
-			
-			return false;
-		});
-
 		if( $(".map").length ) {
 			$('.map').gmap3({
 				map: {

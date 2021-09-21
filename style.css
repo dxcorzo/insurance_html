@@ -1724,3 +1724,28 @@ form textarea {
         border-right: none; }
   .site-footer .colophon {
     color: #898b8d; }
+
+
+
+    .row {
+      display: flex;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 10px;      
+    }
+
+
+.tabla-beneficios .titulos
+{
+  width: 150px;
+  text-align: left;
+}
+
+
+.tabla-beneficios .valores
+{
+  text-align: left;
+}

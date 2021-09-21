@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title>Insurance | Contact</title>
+		<title>Insurance | Insurances type</title>
 
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
@@ -78,46 +78,63 @@
 				<div class="breadcrumbs">
 					<div class="container">
 						<a href="index.html">Home</a>
-						<span>Contacto</span>
+						<span>Insurance</span>
 					</div>
 				</div>
 
 				<div class="page">
 					<div class="container">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1017835.6885807574!2d-74.53253440321386!3d4.783635550216245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f28eb1616af2b%3A0x933cbcb5fad108ed!2sCundinamarca!5e0!3m2!1sen!2sco!4v1632177549627!5m2!1sen!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<h3 class="entry-title">Planes</h3>
+						<p>En  Psicólogos Asociados, se ofrece a nuestros asegurados acceso a la mejor atención psicológica a través de nuestro plan. Manejamos estándares de calidad establecidos y una amplia gama de beneficios exclusivos para usted y su familia que son el diferenciador clave en la vida de todos nuestros asegurados.</p>
+						<p>Nuestro Plan psicológico ofrece flexibilidad y cobertura integral, nuestro equipo de especialistas les guía en el sistema de atención psicológica por consultas y primeros auxilios psicológicos, además de facilitar el acceso a proveedores en el área de psicología reconocidos para brindar una atención de calidad. Para nuestros asegurados nos hemos convertido en experiencia, confianza, la mejor atención y cobertura psicológica.</p>
+						<p>Nuestro compromiso es la excelencia en el servicio, basado en experiencia y la capacidad para ayudarle, dado que el equipo de psicólogos está altamente capacitado para atender sus necesidades, para guiarlo y orientarlo</p>
 
-						<div class="row">
-							<div class="col-md-3">
+						<div class="filter-links filterable-nav">
+							<select class="mobile-filter">
+								<option value="*">Ver todos</option>
+								<option value=".skyscraper">Planes</option>
+								<option value=".shopping-center">Otros beneficios</option>
+								<option value=".apartment">Alianzas</option>
+							</select>
+							<strong>Seleccionar Categoria: </strong>
+							
+							<a href="#" class="wow fadeInRight" data-wow-delay=".2s" data-filter=".skyscraper">Planes</a>
+							<a href="#" class="wow fadeInRight" data-wow-delay=".4s" data-filter=".shopping-center">Otros beneficios</a>
+							<a href="#" class="wow fadeInRight" data-wow-delay=".6s" data-filter=".apartment">Alianzas</a>
+						</div>
 
-								<div class="contact-detail">
-									<address>
-										<h3>Psicologos Asociados</h3>
-										<h3>Calle 123 # 45 - 67</h3>
-
-										<h3>Telefono: 60 1 8527419</h3>
-										<h3>hola@psicologosasociados.com</h3>
-									</address>
+						<div class="filterable-items">
+							<div class="insurance-item filterable-item shopping-center">
+								<div class="insurance-content">
+									<div class="insurance-icon"><i class="icon-sofa"></i></div>
+									<h3 class="insurance-title">Otros beneficios</h3>
+									<p>Descripcion para otros beneficios</p>
+									<a href="otros-beneficios.html" class="button">Ver detalles</a>
 								</div>
 							</div>
-							<div class="col-md-9">
-								<h2 class="section-title text-left">Forma de contacto</h2>
-								<form action="#" class="contact-form">
-									<div class="row">
-										<div class="col-md-4"><input type="text" placeholder="Tu nombre..."></div>
-										<div class="col-md-4"><input type="text" placeholder="Tu email..."></div>
-										
-									</div>
+						
 
-									<textarea  placeholder="Mensaje..."></textarea>
-
-									<p class="text-right">
-										<input type="submit" value="Enviar mensaje">
-									</p>
-								</form>
-
-
+							<div class="insurance-item filterable-item skyscraper">
+								<div class="insurance-content">
+									<div class="insurance-icon"><i class="icon-nurse"></i></div>
+									<h3 class="insurance-title">Plan básico Premier</h3>
+									<p>Descripcion del plan.</p>
+									<a href="plan-basico-premier.html" class="button btn-plan-basico-premier">Ver detalles</a>
+								</div>
 							</div>
+
+							<div class="insurance-item filterable-item apartment">
+								<div class="insurance-content">
+									<div class="insurance-icon"><i class="icon-diamond"></i></div>
+									<h3 class="insurance-title">Alianzas</h3>
+									<p>Descripcion para Alianzas</p>
+									<a href="alianzas.html" class="button">Ver detalles</a>
+								</div>
+							</div>
+
+							
 						</div>
+						
 					</div>
 				</div> <!-- .page -->
 			</main>
@@ -140,8 +157,10 @@
 			</div>
 		</div>
 
+		<div id="plan-basico-premier" class="modal">hola modal</div>
+
+
 		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/app.js"></script>
 		
