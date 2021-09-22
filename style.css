@@ -114,7 +114,7 @@ q:after {
   content: none; }
 
 small {
-  font-size: 80%; }
+  font-size: 90%; }
 
 sub,
 sup {
@@ -1142,8 +1142,8 @@ form textarea {
     margin-right: 10px; }
   #branding .site-title {
     margin-bottom: 0;
-    font-size: 20px;
-    font-size: 1.25em; }
+    font-size: 30px;
+    font-size: 1.65em; }
     #branding .site-title a {
       color: #768089; }
 
